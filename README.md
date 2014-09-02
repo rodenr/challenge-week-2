@@ -51,16 +51,163 @@ fill-in-your-answer
 # Challenges
 
 ## Challenge 1-a (2 points)
-
-  splunk query (Note: indent using a tab to make it display as code)
-
+```
+sourcetype=access_* [fill-in-the-rest]
+```
 ![image](image.png?raw=true)
 
 ## Challenge 1-b (2 points)
+```
+sourcetype=access_* [fill-in-the-rest]
+```
+![image](image.png?raw=true)
 
-  splunk query
+## Challenge 1-c (2 points)
+```
+sourcetype=access_* [fill-in-the-rest]
+```
+![image](image.png?raw=true)
 
+## Challenge 1-d (2 points)
+```
+sourcetype=access_* [fill-in-the-rest]
+```
+![image](image.png?raw=true)
+
+## Challenge 1-e (2 points)
+```
+sourcetype=access_* [fill-in-the-rest]
+```
+![image](image.png?raw=true)
+
+## Challenge 1-f (2 points)
+```
+sourcetype=access_* [fill-in-the-rest]
+```
+![image](image.png?raw=true)
+
+## Challenge 1-g (2 points)
+```
+sourcetype=access_* [fill-in-the-rest]
+```
+![image](image.png?raw=true)
+
+## Challenge 1-h (2 points)
+```
+sourcetype=access_* [fill-in-the-rest]
+```
+![image](image.png?raw=true)
+
+## Challenge 1-i (2 points)
+```
+sourcetype=access_* [fill-in-the-rest]
+```
 ![image](image.png?raw=true)
 
 
+## Challenge 2-a (2 points)
+```
+sourcetype=access_* [fill-in-the-rest]
+```
+![image](image.png?raw=true)
 
+## Challenge 2-b (2 points)
+```
+sourcetype=access_* [fill-in-the-rest]
+```
+![image](image.png?raw=true)
+
+## Challenge 2-c (2 points)
+```
+sourcetype=access_* [fill-in-the-rest]
+```
+![image](image.png?raw=true)
+
+
+## Challenge 2-d (2 points)
+```
+sourcetype=access_* [fill-in-the-rest]
+```
+![image](image.png?raw=true)
+
+## Challenge 2-e (2 points)
+```
+sourcetype=access_* [fill-in-the-rest]
+```
+![image](image.png?raw=true)
+
+## Challenge 2-f (2 points)
+```
+sourcetype=access_* [fill-in-the-rest]
+```
+![image](image.png?raw=true)
+
+## Challenge 2-g (2 points)
+```
+sourcetype=access_* [fill-in-the-rest]
+```
+![image](image.png?raw=true)
+
+## Challenge 3-a (2 points)
+```
+sourcetype=access_* [fill-in-the-rest]
+```
+![image](image.png?raw=true)
+
+## Challenge 3-b (2 points)
+```
+sourcetype=access_* [fill-in-the-rest]
+```
+![image](image.png?raw=true)
+
+## Challenge 3-c (2 points)
+```
+sourcetype=access_* [fill-in-the-rest]
+```
+![image](image.png?raw=true)
+
+## Challenge 3-d (2 points)
+```
+sourcetype=access_* [fill-in-the-rest]
+```
+![image](image.png?raw=true)
+
+## Challenge 3-e (2 points)
+```
+sourcetype=access_* [fill-in-the-rest]
+```
+![image](image.png?raw=true)
+
+## Challenge 3-f (2 points)
+```
+sourcetype=access_* [fill-in-the-rest]
+```
+![image](image.png?raw=true)
+
+## Challenge 3-g (2 points)
+```
+sourcetype=access_* [fill-in-the-rest]
+```
+![image](image.png?raw=true)
+
+## Challenge 3-h (2 points)
+```
+sourcetype=access_* [fill-in-the-rest]
+```
+![image](image.png?raw=true)
+
+## Challenge 3-i (2 points)
+```
+sourcetype=access_* [fill-in-the-rest]
+```
+![image](image.png?raw=true)
+
+## Challenge 4-a (4 points)
+```
+sourcetype=access_* [fill-in-the-rest]
+```
+![image](image.png?raw=true)
+
+## Challenge 4-b (4 points)
+```
+sourcetype=access_* [fill-in-the-rest]
