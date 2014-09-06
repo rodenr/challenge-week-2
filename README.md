@@ -4,7 +4,7 @@ Ryan Roden
 
 # How many points have you earned?
 
-0/100
+10/100
 
 (Make your own calculation and replace the number 0 with the points you think you've earned.)
 
@@ -16,7 +16,7 @@ Ryan Roden
 
 ## Checkpoint 1 (5 points)
 
-![image](image.png?raw=true)
+![image](http://i.imgur.com/48af9zE.png)
 
 ## Checkpoint 2 (5 points)
 
