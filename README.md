@@ -1,6 +1,6 @@
 # Name
 
-write-your-name
+Ryan Roden
 
 # How many points have you earned?
 
@@ -20,7 +20,7 @@ write-your-name
 
 ## Checkpoint 2 (5 points)
 
-![image](image.png?raw=true)
+![image](http://i.imgur.com/08UqF5g.png)
 
 ## Checkpoint 3 (5 points)
 
