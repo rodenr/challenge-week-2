@@ -4,7 +4,7 @@ Ryan Roden
 
 # How many points have you earned?
 
-15/100
+20/100
 
 (Make your own calculation and replace the number 0 with the points you think you've earned.)
 
@@ -28,7 +28,7 @@ Ryan Roden
 
 ## Checkpoint 4 (5 points)
 
-![image](image.png?raw=true)
+![image](http://i.imgur.com/Saqfp87.png)
 
 ## Study Questions (3 points x 4 = 12 points)
 
