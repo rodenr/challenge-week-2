@@ -4,13 +4,13 @@ Ryan Roden
 
 # How many points have you earned?
 
-20/100
+33/100
 
 (Make your own calculation and replace the number 0 with the points you think you've earned.)
 
 # Show and tell (10 points)
 
-[title-of-the-article](http://link-to-an-interesting-article-about-a-cool-use-of-arduino)
+[Fire Breathing Animetronic Pony](http://www.instructables.com/id/Make-a-Fire-Breathing-Animetronic-Pony-from-FurRea/)
 
 # Checkpoints
 
@@ -38,7 +38,7 @@ fill-in-your-answer
 
 ### Q2. (3 points)
 
-fill-in-your-answer
+If everything worked properly for a purchase the status is 200, so a status that isn't 200 is not a successful purchase.
 
 ### Q3. (3 points)
 
