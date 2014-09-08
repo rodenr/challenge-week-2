@@ -58,7 +58,7 @@ sourcetype=access_* | stats count
 
 ## Challenge 1-b (2 points)
 ```
-sourcetype=access_* [fill-in-the-rest]
+sourcetype=access_* | stats count | rename count AS "Events"
 ```
 ![image](image.png?raw=true)
 
