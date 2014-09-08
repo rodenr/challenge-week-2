@@ -52,7 +52,7 @@ depending on the scale of the site, a structural database might not support some
 
 ## Challenge 1-a (2 points)
 ```
-sourcetype=access_* [fill-in-the-rest]
+sourcetype=access_* | stats count
 ```
 ![image](image.png?raw=true)
 
