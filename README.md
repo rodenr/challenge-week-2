@@ -54,60 +54,60 @@ depending on the scale of the site, a structural database might not support some
 ```
 sourcetype=access_* | stats count
 ```
-![image](image.png?raw=true)
+![image](http://i.imgur.com/KVEMpqB.png)
 
 ## Challenge 1-b (2 points)
 ```
 sourcetype=access_* | stats count as "Events"
 ```
-![image](image.png?raw=true)
+![image](http://i.imgur.com/rYRHDqK.png)
 
 ## Challenge 1-c (2 points)
 ```
 sourcetype=access_* | stats count AS "Events", count(eval(action="purchase")) AS "Purchases"
 ```
-![image](image.png?raw=true)
+![image](http://i.imgur.com/NNC09WH.png)
 
 ## Challenge 1-d (2 points)
 ```
 sourcetype=access_* | stats count AS "Events", count(eval(action="purchase")) AS "Purchases", count(eval(action="addtocart")) AS "AddToCarts", count(eval(action="remove")) AS "Removes"
 ```
-![image](image.png?raw=true)
+![image](http://i.imgur.com/RJTJOM0.png)
 
 ## Challenge 1-e (2 points)
 ```
 sourcetype=access_* | stats max(bytes)
 ```
-![image](image.png?raw=true)
+![image](http://i.imgur.com/r4DT2HG.png)
 
 ## Challenge 1-f (2 points)
 ```
 sourcetype=access_* | stats max(bytes)
 ```
-![image](image.png?raw=true)
+![image](http://i.imgur.com/r4DT2HG.png)
 
 ## Challenge 1-g (2 points)
 ```
 sourcetype=access_* | stats max(bytes) as  MAX
 ```
-![image](image.png?raw=true)
+![image](http://i.imgur.com/ZTzmbW6.png)
 
 ## Challenge 1-h (2 points)
 ```
 sourcetype=access_* | stats max(bytes) as  MAX, min(bytes), avg(bytes)
 ```
-![image](image.png?raw=true)
+![image](http://i.imgur.com/guku7nF.png)
 
 ## Challenge 1-i (2 points)
 ```
 sourcetype=access_* | stats distinct_count(productId), values(productId) as "UniqueProducts"
 ```
-![image](image.png?raw=true)
+![image](http://i.imgur.com/wINDPxB.png)
 
 
 ## Challenge 2-a (2 points)
 ```
-sourcetype=access_* [fill-in-the-rest]
+sourcetype=access_* productId cart.do | top clientip
 ```
 ![image](image.png?raw=true)
 
