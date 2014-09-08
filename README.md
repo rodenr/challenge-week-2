@@ -4,7 +4,7 @@ Ryan Roden
 
 # How many points have you earned?
 
-33/100
+42/100
 
 (Make your own calculation and replace the number 0 with the points you think you've earned.)
 
@@ -34,7 +34,7 @@ Ryan Roden
 
 ### Q1. (3 points)
 
-fill-in-your-answer
+the www1 through www3 are assigned names for hosts for the splunk server.  There are more than one for load balancing as to not overstress a single server.
 
 ### Q2. (3 points)
 
@@ -42,11 +42,11 @@ If everything worked properly for a purchase the status is 200, so a status that
 
 ### Q3. (3 points)
 
-fill-in-your-answer
+The heavy use of the pipe would be to channel data from the previous query into the query following the |
 
 ### Q4. (3 points)
 
-fill-in-your-answer
+depending on the scale of the site, a structural database might not support something like that in real time.
 
 # Challenges
 
