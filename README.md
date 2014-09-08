@@ -109,44 +109,44 @@ sourcetype=access_* | stats distinct_count(productId), values(productId) as "Uni
 ```
 sourcetype=access_* productId cart.do | top clientip
 ```
-![image](image.png?raw=true)
+![image](http://i.imgur.com/CKLKXmo.png)
 
 ## Challenge 2-b (2 points)
 ```
-sourcetype=access_* [fill-in-the-rest]
+sourcetype=access_* productId cart.do | top date_wday | head 3
 ```
-![image](image.png?raw=true)
+![image](http://i.imgur.com/0zEQFCN.png)
 
 ## Challenge 2-c (2 points)
 ```
-sourcetype=access_* [fill-in-the-rest]
+sourcetype=access_* productId cart.do | top productId
 ```
-![image](image.png?raw=true)
+![image](http://i.imgur.com/iCivo6Q.png)
 
 
 ## Challenge 2-d (2 points)
 ```
-sourcetype=access_* [fill-in-the-rest]
+sourcetype=access_* productId cart.do date_wday=friday | top productId
 ```
-![image](image.png?raw=true)
+![image](http://i.imgur.com/JpsjuM8.png)
 
 ## Challenge 2-e (2 points)
 ```
-sourcetype=access_* [fill-in-the-rest]
+sourcetype=access_* productId cart.do date_wday=friday action=purchase | top productId
 ```
-![image](image.png?raw=true)
+![image](http://i.imgur.com/DdFZ8Sf.png)
 
 ## Challenge 2-f (2 points)
 ```
-sourcetype=access_* [fill-in-the-rest]
+sourcetype=access_* productId cart.do action=purchase | top productId limit=1
 ```
-![image](image.png?raw=true)
+![image](http://i.imgur.com/HIkCfaK.png)
 
 ## Challenge 2-g (2 points)
 ```
-sourcetype=access_* [fill-in-the-rest]
+sourcetype=access_* productId cart.do action=purchase | top productId by date_wday limit=1
 ```
-![image](image.png?raw=true)
+![image](http://i.imgur.com/hbosOZC.png)
 
 ## Challenge 3-a (2 points)
 ```
