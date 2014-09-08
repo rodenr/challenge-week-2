@@ -150,57 +150,57 @@ sourcetype=access_* productId cart.do action=purchase | top productId by date_wd
 
 ## Challenge 3-a (2 points)
 ```
-sourcetype=access_* [fill-in-the-rest]
+sourcetype=access_* productId=* | timechart count
 ```
-![image](image.png?raw=true)
+![image](http://i.imgur.com/2hnXf44.png)
 
 ## Challenge 3-b (2 points)
 ```
-sourcetype=access_* [fill-in-the-rest]
+sourcetype=access_* productId=* | timechart distinct_count(clientip)
 ```
-![image](image.png?raw=true)
+![image](http://i.imgur.com/zdequi9.png)
 
 ## Challenge 3-c (2 points)
 ```
-sourcetype=access_* [fill-in-the-rest]
+sourcetype=access_* productId=* | timechart distinct_count(clientip) span=hours
 ```
-![image](image.png?raw=true)
+![image](http://i.imgur.com/agesizx.png)
 
 ## Challenge 3-d (2 points)
 ```
-sourcetype=access_* [fill-in-the-rest]
+sourcetype=access_* productId=* | timechart count by host
 ```
-![image](image.png?raw=true)
+![image](http://i.imgur.com/iMzXgzC.png)
 
 ## Challenge 3-e (2 points)
 ```
-sourcetype=access_* [fill-in-the-rest]
+sourcetype=access_* productId=* | timechart count by productId
 ```
-![image](image.png?raw=true)
+![image](http://i.imgur.com/nz7K5QW.png)
 
 ## Challenge 3-f (2 points)
 ```
-sourcetype=access_* [fill-in-the-rest]
+sourcetype=access_* productId=* | timechart count by productId useother=false usenull=false limit=16
 ```
-![image](image.png?raw=true)
+![image](http://i.imgur.com/vbf9bU7.png)
 
 ## Challenge 3-g (2 points)
 ```
-sourcetype=access_* [fill-in-the-rest]
+sourcetype=access_* productId=* | timechart count by clientip
 ```
-![image](image.png?raw=true)
+![image](http://i.imgur.com/kLra7Tt.png)
 
 ## Challenge 3-h (2 points)
 ```
-sourcetype=access_* [fill-in-the-rest]
+sourcetype=access_* productId=* | timechart count by clientip useother=false
 ```
-![image](image.png?raw=true)
+![image](http://i.imgur.com/H1DnT05.png)
 
 ## Challenge 3-i (2 points)
 ```
-sourcetype=access_* [fill-in-the-rest]
+sourcetype=access_* productId=* | timechart sum(bytes) span=hours
 ```
-![image](image.png?raw=true)
+![image](http://i.imgur.com/FxQ6keO.png)
 
 ## Challenge 4-a (4 points)
 ```
