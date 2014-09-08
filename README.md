@@ -58,49 +58,49 @@ sourcetype=access_* | stats count
 
 ## Challenge 1-b (2 points)
 ```
-sourcetype=access_* | stats count | rename count AS "Events"
+sourcetype=access_* | stats count as "Events"
 ```
 ![image](image.png?raw=true)
 
 ## Challenge 1-c (2 points)
 ```
-sourcetype=access_* [fill-in-the-rest]
+sourcetype=access_* | stats count AS "Events", count(eval(action="purchase")) AS "Purchases"
 ```
 ![image](image.png?raw=true)
 
 ## Challenge 1-d (2 points)
 ```
-sourcetype=access_* [fill-in-the-rest]
+sourcetype=access_* | stats count AS "Events", count(eval(action="purchase")) AS "Purchases", count(eval(action="addtocart")) AS "AddToCarts", count(eval(action="remove")) AS "Removes"
 ```
 ![image](image.png?raw=true)
 
 ## Challenge 1-e (2 points)
 ```
-sourcetype=access_* [fill-in-the-rest]
+sourcetype=access_* | stats max(bytes)
 ```
 ![image](image.png?raw=true)
 
 ## Challenge 1-f (2 points)
 ```
-sourcetype=access_* [fill-in-the-rest]
+sourcetype=access_* | stats max(bytes)
 ```
 ![image](image.png?raw=true)
 
 ## Challenge 1-g (2 points)
 ```
-sourcetype=access_* [fill-in-the-rest]
+sourcetype=access_* | stats max(bytes) as  MAX
 ```
 ![image](image.png?raw=true)
 
 ## Challenge 1-h (2 points)
 ```
-sourcetype=access_* [fill-in-the-rest]
+sourcetype=access_* | stats max(bytes) as  MAX, min(bytes), avg(bytes)
 ```
 ![image](image.png?raw=true)
 
 ## Challenge 1-i (2 points)
 ```
-sourcetype=access_* [fill-in-the-rest]
+sourcetype=access_* | stats distinct_count(productId), values(productId) as "UniqueProducts"
 ```
 ![image](image.png?raw=true)
 
